@@ -12,6 +12,23 @@ This project involves designing and implementing a 16-bit MIPS-like RISC archite
 - **General Purpose Registers:** 8 registers ($r0-$r7)
 - **Special Registers:** $r7 (link register), $r6 (stack pointer), $r0 (constant zero)
 
+### Software Utility
+Understanding the design and implementation of the Duke 250/16 processor can provide significant insights for software developers, particularly in the following areas:
+- **Optimization:** By understanding how software instructions are executed at the hardware level, developers can write more efficient code.
+- **Embedded Systems:** Knowledge of processor design is crucial for developing software for embedded systems.
+- **Debugging:** Insight into the interaction between software and hardware can improve debugging skills, especially for low-level software issues.
+- **Educational Tool:** The processor serves as a practical example for teaching computer architecture and low-level programming concepts.
+
+### Testing and Debugging
+- **Automated Testing:** Provided scripts and tools to validate functionality
+- **Manual Testing:** Step-by-step simulation in Logisim for debugging
+
+### Skills and Knowledge Gained
+- **Digital Logic Design:** Understanding of basic digital components and their integration
+- **RISC Architecture:** Design principles of a reduced instruction set computer
+- **Logisim Proficiency:** Circuit design and simulation using Logisim
+- **Debugging:** Techniques for identifying and fixing issues in digital circuits
+
 ### Supported Instructions
 - **Arithmetic:** add, sub, addi, xor, not
 - **Shifts:** sll, srl
@@ -43,25 +60,7 @@ This project involves designing and implementing a 16-bit MIPS-like RISC archite
 - **Instruction Memory:** Separate ROM block
 - **Data Memory:** RAM block, word-addressed
 
-### Software Utility
-Understanding the design and implementation of the Duke 250/16 processor can provide significant insights for software developers, particularly in the following areas:
-- **Optimization:** By understanding how software instructions are executed at the hardware level, developers can write more efficient code.
-- **Embedded Systems:** Knowledge of processor design is crucial for developing software for embedded systems.
-- **Debugging:** Insight into the interaction between software and hardware can improve debugging skills, especially for low-level software issues.
-- **Educational Tool:** The processor serves as a practical example for teaching computer architecture and low-level programming concepts.
-
-### Testing and Debugging
-- **Automated Testing:** Provided scripts and tools to validate functionality
-- **Manual Testing:** Step-by-step simulation in Logisim for debugging
-
-### Skills and Knowledge Gained
-- **Digital Logic Design:** Understanding of basic digital components and their integration
-- **RISC Architecture:** Design principles of a reduced instruction set computer
-- **Logisim Proficiency:** Circuit design and simulation using Logisim
-- **Debugging:** Techniques for identifying and fixing issues in digital circuits
-
-### Submission
-**Files:**
+### Files
 - `cpu.circ`: Main Logisim circuit file
 - `cpu.pdf` (optional): Description of processor functionality and issues
 
