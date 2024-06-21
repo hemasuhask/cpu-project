@@ -11,7 +11,7 @@ This project involves designing and implementing a 16-bit MIPS-like RISC archite
 - **Instruction Types:** R-type, I-type, J-type
 - **General Purpose Registers:** 8 registers ($r0-$r7)
 - **Special Registers:** $r7 (link register), $r6 (stack pointer), $r0 (constant zero)
-- 
+  
 
 ### Software Utility
 Understanding the design and implementation of the Duke 250/16 processor can provide significant insights for software developers, particularly in the following areas:
